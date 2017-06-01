@@ -10,8 +10,9 @@ angular.module('app', ['ui.router'])
                 controller: 'homeCtrl'
             })
             .state('details', {
-                url: '/details',
+                url: '/details/:shoeID',
                 templateUrl: '/views/details.html',
                 controller: 'detailsCtrl'
             })
+      
   })

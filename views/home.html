@@ -1,0 +1,28 @@
+<h1>{{title}}</h1>
+
+
+<!--this ng-model is used to filter what is repeated-->
+  <!--<input type="text" placeholder='search here... ' ng-model='cow'>
+  {{cow}}-->
+
+
+<h2 ng-repeat='s in shoes | filter: cow' ui-sref='details({shoeID: s.id})'>{{s.type}}, id: {{s.id}}</h2>
+
+
+<!--this is what ng-repeat does for you... which is why it's awesome-->
+<!--
+<h2 ui-sref='details({shoeID: 1})'>{{shoes[0].type}}</h2>
+<h2 ui-sref='details({shoeID: 2})'>{{shoes[1].type}}</h2>
+<h2 ui-sref='details({shoeID: 3})'>{{shoes[2].type}}</h2>
+<h2 ui-sref='details({shoeID: 4})'>{{shoes[3].type}}</h2>
+<h2 ui-sref='details({shoeID: 5})'>{{shoes[4].type}}</h2>-->
+
+
+
+
+
+
+
+
+
+
